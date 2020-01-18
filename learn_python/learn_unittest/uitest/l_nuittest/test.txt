@@ -1,0 +1,18 @@
+test_001 (unit_test.uitest.learn_unittest.TestAdd) ... ok
+test_002 (unit_test.uitest.learn_unittest.TestAdd) ... ok
+test_003 (unit_test.uitest.learn_unittest.TestSub) ... FAIL
+
+======================================================================
+FAIL: test_003 (unit_test.uitest.learn_unittest.TestSub)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "H:\Http_test\unit_test\uitest\learn_unittest.py", line 54, in test_003
+    raise e  # 将处理结果异常抛出
+  File "H:\Http_test\unit_test\uitest\learn_unittest.py", line 51, in test_003
+    self.assertEqual(expected, cc)
+AssertionError: 20 != 21
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+FAILED (failures=1)
